@@ -8,6 +8,11 @@ module.exports = {
           thirdary: "#6B6D75", 
           "button-primary": "#00DDBE",
         },
+
+        fontFamily: {
+          'yellix': ['Yellix-SemiBold', 'sans-serif'], // Thêm font vào đây
+        },
+        
       },
     },
     plugins: [],

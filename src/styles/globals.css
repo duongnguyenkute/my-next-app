@@ -1,21 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '../styles/fonts.css';
 
-/* Reset CSS mặc định */
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Thiết lập nền mặc định cho toàn bộ trang */
+
 body {
   @apply bg-gray-100 text-gray-900;
-  font-family: 'Inter', sans-serif;
+  
 }
 
-/* Custom utility classes nếu cần */
-.btn-primary {
-  @apply bg-button-primary text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-opacity-80 transition;
-}
+

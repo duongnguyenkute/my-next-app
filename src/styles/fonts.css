@@ -1,0 +1,14 @@
+/* styles/fonts.css */
+@font-face {
+    font-family: 'Yellix-SemiBold';
+    src: url('/fonts/Yellix-SemiBold.eot'); /* Cho IE */
+    src: url('/fonts/Yellix-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Yellix-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Yellix-SemiBold';
+  }
+  
