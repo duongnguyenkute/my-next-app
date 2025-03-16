@@ -17,4 +17,7 @@ body {
   
 }
 
+p {
+  @apply text-[16px] font-normal leading-[144%] text-primary;
+}
 

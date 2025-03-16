@@ -1,5 +1,6 @@
 // src/app/layout.tsx
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../styles/fonts.css'; 
 import '../styles/globals.css';
 
@@ -15,6 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <Header /> {/* Hiển thị Header */}
         <main>{children}</main> {/* Nội dung của trang */}
+        <Footer/>
       </body>
     </html>
   );

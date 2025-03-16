@@ -4,11 +4,18 @@
     src: url('/fonts/Yellix-SemiBold.eot'); /* Cho IE */
     src: url('/fonts/Yellix-SemiBold.eot?#iefix') format('embedded-opentype'),
          url('/fonts/Yellix-SemiBold.woff') format('woff');
-    font-weight: normal;
+    font-weight:600;
     font-style: normal;
   }
   
+  @font-face {
+    font-family: 'Yellix-Regular';
+    src: url('/fonts/YellixTRIAL-Regular-BF6719a047e6e10.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  } 
+
   body {
-    font-family: 'Yellix-SemiBold';
+    font-family: 'Yellix-Regular,sans-serif'
   }
   
